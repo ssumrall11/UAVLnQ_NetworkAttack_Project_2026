@@ -48,6 +48,12 @@ sim_vehicle.py -v ArduCopter -I2 --sysid=3 --console --out=udp:127.0.0.1:14571 -
 
 sim_vehicle.py -v ArduCopter -I3 --sysid=4 --console --out=udp:127.0.0.1:14581 --out=udp:127.0.0.1:14582 --out=udp:127.0.0.1:14583 --custom-location=-35.3628,149.16764,0,0
 
+sim_vehicle.py -v ArduCopter -I4 --sysid=5 --console --out=udp:127.0.0.1:14591 --out=udp:127.0.0.1:14592 --out=udp:127.0.0.1:14593 --custom-location=-35.3628,149.16852,0,0
+
+sim_vehicle.py -v ArduCopter -I5 --sysid=6 --console --out=udp:127.0.0.1:14601 --out=udp:127.0.0.1:14602 --out=udp:127.0.0.1:14603 --custom-location=-35.3628,149.16940,0,0
+
+sim_vehicle.py -v ArduCopter -I6 --sysid=7 --console --out=udp:127.0.0.1:14611 --out=udp:127.0.0.1:14612 --out=udp:127.0.0.1:14613 --custom-location=-35.3628,149.17028,0,0
+
 cd UAVLnQ
 
 source .venv/bin/activate
