@@ -1,0 +1,57 @@
+{
+    "Drones_config": [{
+            "id": 1, 
+            "dronekit_connection": "udp:127.0.0.1:14551",
+            "mavlink_connection": "udp:127.0.0.1:14552",
+            "mavlink_parser_connection": "udp:127.0.0.1:14553",
+            "qgroundcontrol_port": 14550
+        },
+        {
+            "id": 2,
+            "dronekit_connection": "udp:127.0.0.1:14561",
+            "mavlink_connection": "udp:127.0.0.1:14562",
+            "mavlink_parser_connection": "udp:127.0.0.1:14563",
+            "qgroundcontrol_port": 14560
+        },
+        {
+            "id": 3,
+            "dronekit_connection": "udp:127.0.0.1:14571",
+            "mavlink_connection": "udp:127.0.0.1:14572",
+            "mavlink_parser_connection": "udp:127.0.0.1:14573",
+            "qgroundcontrol_port": 14570
+        },
+        {
+            "id": 4,
+            "dronekit_connection": "udp:127.0.0.1:14581",
+            "mavlink_connection": "udp:127.0.0.1:14582",
+            "mavlink_parser_connection": "udp:127.0.0.1:14583",
+            "qgroundcontrol_port": 14580
+        },
+	{
+            "id": 5,
+            "dronekit_connection": "udp:127.0.0.1:14591",
+            "mavlink_connection": "udp:127.0.0.1:14592",
+            "mavlink_parser_connection": "udp:127.0.0.1:14593",
+            "qgroundcontrol_port": 14590
+        },
+        {
+            "id": 6,
+            "dronekit_connection": "udp:127.0.0.1:14601",
+            "mavlink_connection": "udp:127.0.0.1:14602",
+            "mavlink_parser_connection": "udp:127.0.0.1:14603",
+            "qgroundcontrol_port": 14600
+        },
+	{
+            "id": 7,
+            "dronekit_connection": "udp:127.0.0.1:14611",
+            "mavlink_connection": "udp:127.0.0.1:14612",
+            "mavlink_parser_connection": "udp:127.0.0.1:14613",
+            "qgroundcontrol_port": 14610
+        }
+
+    ],
+    "NS3_config": {
+        "ns3_bin": "/home/ubuntu/ns-3-dev/build/scratch/multihop-aodv/ns3-dev-multihop-aodv-default",
+        "parameters": "--o=/home/ubuntu/UAVLnQ/ns3-output --nNodes=7 --simTime=200"
+    }
+}
