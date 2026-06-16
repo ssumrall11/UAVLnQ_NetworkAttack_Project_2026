@@ -667,7 +667,7 @@ int main(int argc, char *argv[])
     Simulator::Schedule(Seconds(8.0),  &SendHeartbeatFromDrone0);
     //Simulator::Schedule(Seconds(10.0), &SendHeartbeatFromDrone0);
     //Simulator::Schedule(Seconds(12.0), &SendHeartbeatFromDrone0);
-    Simulator::Schedule(Seconds(14.0), &SendHeartbeatFromDrone0);
+    Simulator::Schedule(Seconds(14.0), &SendHeartbeatFromLastDrone);
     Simulator::Schedule(Seconds(16.0), &SendHeartbeatFromLastDrone);
     Simulator::Schedule(Seconds(18.0), &SendHeartbeatFromLastDrone);
     Simulator::Schedule(Seconds(20.0), &SendHeartbeatFromLastDrone);

@@ -996,8 +996,8 @@ Node: 0; Time: +14s, Local time: +14s, AODV Routing table
 
 AODV Routing table
 Destination     Gateway         Interface       Flag            Expire          Hops
-10.1.1.2        10.1.1.2        10.1.1.1        UP              +20s            1
-10.1.1.7        10.1.1.2        10.1.1.1        UP              +20s            6
+10.1.1.2        10.1.1.2        10.1.1.1        UP              +19s            1
+10.1.1.7        10.1.1.2        10.1.1.1        UP              +19s            6
 10.1.1.255      10.1.1.255      10.1.1.1        UP              +9.2e+09s       1
 127.0.0.1       127.0.0.1       127.0.0.1       UP              +9.2e+09s       1
 
@@ -1064,8 +1064,8 @@ Node: 6; Time: +14s, Local time: +14s, AODV Routing table
 
 AODV Routing table
 Destination     Gateway         Interface       Flag            Expire          Hops
-10.1.1.1        10.1.1.6        10.1.1.7        UP              +19s            6
-10.1.1.6        10.1.1.6        10.1.1.7        UP              +19s            1
+10.1.1.1        10.1.1.6        10.1.1.7        UP              +20s            6
+10.1.1.6        10.1.1.6        10.1.1.7        UP              +20s            1
 10.1.1.255      10.1.1.255      10.1.1.7        UP              +9.2e+09s       1
 127.0.0.1       127.0.0.1       127.0.0.1       UP              +9.2e+09s       1
 
