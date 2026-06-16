@@ -7,7 +7,7 @@
 ---
 #### Instructions
 
-1. Install UAVLnQ using this ![guide](https://github.com/Wh02m1/UAVLnQ).
+1. Install UAVLnQ using this ![guide](https://github.com/Wh02m1/UAVLnQ/blob/main/docs/INSTALLATION.md).
 2. Ask for a invitation to clone this repository.
 3. Git clone this repository
 4. Copy the topology directories (e.g. multihop-aodv, etc) into ns-3-dev/scratch folder. 
