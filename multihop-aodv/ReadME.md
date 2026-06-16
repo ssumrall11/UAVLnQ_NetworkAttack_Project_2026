@@ -82,3 +82,5 @@ The default number of heartbeat messages is 3 for each direction (N3-N0 and N0-N
 ```Simulator::Schedule(Seconds(2.0),  &SendHeartbeatFromDrone0);```
 
 ```Simulator::Schedule(Seconds(16.0), &SendHeartbeatFromLastDrone);```
+
+Furthermore, there is a new corrections sub-directory with logs that correspond with the new standard amount of heartbeat packets for comparison between baseline and attack implementations. The new standard amount for both directions is 4 hb packets. 
