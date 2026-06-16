@@ -1,6 +1,7 @@
 # Sarah Sumrall's Summer 2026 Cyberus EMJM Year 1 Project
 ## TOPIC: Simulating SoTA network attacks on UAVLnQ
 ### Supervised by: Dr. Guy Gogniat and Dr. Maria Mendez-Réal
+### Assisted by Abdelrahman Yousef and Cedric Seguin
 ---
 #### Explanation
 
