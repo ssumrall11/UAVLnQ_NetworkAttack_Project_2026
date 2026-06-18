@@ -567,7 +567,7 @@ int main(int argc, char *argv[])
     OnOffHelper app("ns3::UdpSocketFactory",
                     InetSocketAddress(interfaces.GetAddress(nNodes - 1), port)); 
     //app.Install(drones.Get(0));
-    app.SetAttribute("DataRate", StringValue("0.5kbps"));
+    app.SetAttribute("DataRate", StringValue("1kbps"));
     app.SetAttribute("PacketSize", UintegerValue(64));
     app.SetAttribute("OnTime", StringValue("ns3::ConstantRandomVariable[Constant=1]"));
     app.SetAttribute("OffTime", StringValue("ns3::ConstantRandomVariable[Constant=0]"));
