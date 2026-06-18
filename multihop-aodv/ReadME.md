@@ -83,4 +83,6 @@ The default number of heartbeat messages is 3 for each direction (N3-N0 and N0-N
 
 ```Simulator::Schedule(Seconds(16.0), &SendHeartbeatFromLastDrone);```
 
-Furthermore, there is a new corrections sub-directory with logs that correspond with the new standard amount of heartbeat packets for comparison between baseline and attack implementations. The new standard amount for both directions is 4 hb packets. 
+Furthermore, there is a new-corrections sub-directory with logs that correspond with the new standard amount of heartbeat packets for comparison between baseline and attack implementations. The new standard amount for both directions is 4 hb packets. 
+
+The other-corrections folder contains logs that correspond with the most recent pushed corrections (e.g. SetAttribute functions in the packet sink functions) in the Multihop-AODV to unskew the metrics. You can change these metrics to add as many packets of any size that you want.
