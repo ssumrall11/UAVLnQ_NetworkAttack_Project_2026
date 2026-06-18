@@ -5,10 +5,12 @@
 ---
 #### Explanation
 
+Click this [link](https://docs.google.com/document/d/1PhekyioTNHzDQ_MfK-wAB9ln-QO9QYYCfYmaaUpFwi4/edit?usp=sharing) to read the academic paper which provides a full scientific explanation of this project. 
+
 ---
 #### Instructions
 
-1. Install UAVLnQ using this ![guide](https://github.com/Wh02m1/UAVLnQ/blob/main/docs/INSTALLATION.md).
+1. Install UAVLnQ using this [guide](https://github.com/Wh02m1/UAVLnQ/blob/main/docs/INSTALLATION.md).
 2. Ask for a invitation to clone this repository.
 3. Git clone this repository
 4. Copy the topology directories (e.g. multihop-aodv, etc) into ns-3-dev/scratch folder.
