@@ -5,6 +5,8 @@
 ---
 #### Explanation
 
+Click this ![link](https://docs.google.com/document/d/1PhekyioTNHzDQ_MfK-wAB9ln-QO9QYYCfYmaaUpFwi4/edit?usp=sharing) to read the academic paper which provides a full scientific explanation of this project. 
+
 ---
 #### Instructions
 
