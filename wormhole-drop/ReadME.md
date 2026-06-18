@@ -57,7 +57,8 @@ PY
 ```
 
 To run the simulation in only NS-3. You use the command: 
-```NS_LOG="DroneWormholeMesh=info" ~/ns-3-dev/build/scratch/multihop-with-attacker/ns3-dev-multihop-with-attacker-default --nNodes=7 --simTime=200 --o=/home/ubuntu/UAVLnQ/ns3-output/ 2>&1 | tee /home/ubuntu/UAVLnQ/ns3-output/wh.log``
+
+```NS_LOG="DroneWormholeMesh=info" ~/ns-3-dev/build/scratch/multihop-with-attacker/ns3-dev-multihop-with-attacker-default --nNodes=7 --simTime=200 --o=/home/ubuntu/UAVLnQ/ns3-output/ 2>&1 | tee /home/ubuntu/UAVLnQ/ns3-output/wh.log```
 
 To run the simulation in UAVLnQ, you use change the drones-config file to the correct parameters (as seen in directions in the main rREADME and INSTALLATION guide) and use these commands:
 ```json
