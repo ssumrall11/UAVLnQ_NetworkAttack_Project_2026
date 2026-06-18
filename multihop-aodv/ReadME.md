@@ -65,7 +65,7 @@ source .venv/bin/activate
 python Mavlink-NS3-Parser.py
 ```
 
-The default amount of nodes is 7. You can change it in main.cc here:
+The default amount of nodes is 7 as seen above. You can also change it in main.cc here:
 
 ```uint32_t nNodes = 7;```
 
