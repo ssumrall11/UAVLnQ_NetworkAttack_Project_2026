@@ -35,6 +35,7 @@ for p in pkts:
 PY
 ```
 ```json
+python - <<'PY'
 from scapy.all import rdpcap,IP,UDP
 
 for fn in [                                                          
