@@ -36,7 +36,7 @@ To run the simulation in only NS-3. You use the command:
 ```NS_LOG="DroneZmqMeshNetwork=info:AodvRoutingProtocol=debug:Ipv4L3Protocol=info:ArpL3Protocol=info" ~/ns-3-dev/build/scratch/multihop-aodv/ns3-dev-multihop-aodv-default --nNodes=7 --simTime=200 --o=/home/ubuntu/UAVLnQ/ns3-output 2>&1 | tee /home/ubuntu/UAVLnQ/ns3-output/baseline-aodv_normal.log```
 
 
-To run the simulation in UAVLnQ, you use change the drones-config file to the correct parameters (as seen in directions in the main rREADME and INSTALLATION guide) and use these commands:
+To run the simulation in UAVLnQ, you use change the drones-config file to the correct parameters (as seen in directions in the [main UAVLnQ README](https://github.com/Wh02m1/UAVLnQ/blob/main/README.md) and [INSTALLATION guide](https://github.com/Wh02m1/UAVLnQ/blob/main/docs/INSTALLATION.md)) and use these commands:
 ```json
 flatpak run --share=network org.mavlink.qgroundcontrol
 
